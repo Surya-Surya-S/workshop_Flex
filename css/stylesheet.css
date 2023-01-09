@@ -3,9 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-ul li{
+/* ul li{
     list-style: none;
-}
+} */
 a{
     text-decoration: none;
 }
@@ -102,7 +102,7 @@ body{
     margin: 0 0 20px 0;
 }
 .project_content{
-    width: 96%;
+    width: 86%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -118,11 +118,29 @@ body{
 .project_img img{
     width: 100%;
 }
-.lef_top .project_img {
-    margin-left: -56px;
+.lef_top .project_img, .lef_top h2, .lef_top p {
+    margin-left: -106px;
+    margin-bottom: 0;
 }
-.middle .project_img {
-    margin-left: -28px;
+.middle .project_img, .middle h2, .middle p {
+    margin-left: -38px;
+    margin-bottom: 0;
+}
+.right .project_img, .right h2, .right p{
+    margin-left: 24px;
+}
+.project1 h2{
+    font-size: 22px;
+    text-align: left;
+    padding: 14px 0 8px 0;
+}
+.project1 p{
+    font-size: 14px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.right h2{
+    margin-bottom: 0;
 }
 /* project/experience_end */
 
@@ -142,34 +160,40 @@ body{
     font-family: Geneva, Tahoma, sans-serif;
     font-weight: 500;
     text-transform: capitalize;
-    margin: 0 0 20px 0;
+    margin: 0 0 30px 0;
 }
 .about_content{
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
-.about_me{
-    width: 50%;
-}
-.aboutMe{
-    width: 96%;
+.about_para{
+    width: 48%;
     background-color: #f8f9fa;
-    padding: 10px 0;
+    padding: 18px 0;
+    margin: 0 0 10px 0;
 }
-.aboutMe.active {
-    margin-left: 2%;
-    background-color: #343a40;
-}
-.aboutMe h4{
-    font-size: 18px;
-    font-family: system-ui;
-    font-weight: 500;
-    text-transform: capitalize;
-}
-.aboutMe ul li a{
+.about_para li{
     text-align: left;
-    list-style: circle;
+    list-style: disc;
+    margin: 0 0 6px 60px;
+}
+.about_para li a{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #333940;
+}
+.about_para.active h2{
+    color: #f8f9fa;
+}
+.about_para li a{
+    text-transform: uppercase;
+    color: #f8f9fa;
+}
+.about_para.active{
+    background-color: #343a40;
 }
 /* about_end */
 
