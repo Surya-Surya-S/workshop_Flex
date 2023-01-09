@@ -98,21 +98,31 @@ body{
     font-family: Geneva, Tahoma, sans-serif;
     font-weight: 500;
     text-transform: capitalize;
+    text-align: center;
     margin: 0 0 20px 0;
 }
 .project_content{
+    width: 96%;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
+    margin: 0 auto;
 }
 .project1{
-    width: 33.33%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
+    width: 26.66%;
+}
+.project_img{
+    width: 330px;
     margin: 0 auto;
+}
+.project_img img{
+    width: 100%;
+}
+.lef_top .project_img {
+    margin-left: -56px;
+}
+.middle .project_img {
+    margin-left: -28px;
 }
 /* project/experience_end */
 
