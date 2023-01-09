@@ -102,7 +102,7 @@ body{
     margin: 0 0 20px 0;
 }
 .project_content{
-    width: 86%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -123,11 +123,11 @@ body{
     margin-bottom: 0;
 }
 .middle .project_img, .middle h2, .middle p {
-    margin-left: -38px;
+    margin-left: -8px;
     margin-bottom: 0;
 }
 .right .project_img, .right h2, .right p{
-    margin-left: 24px;
+    margin-left: 86px;
 }
 .project1 h2{
     font-size: 22px;
@@ -165,10 +165,10 @@ body{
 .about_content{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .about_para{
-    width: 48%;
+    width: 42%;
     background-color: #f8f9fa;
     padding: 18px 0;
     margin: 0 0 10px 0;
