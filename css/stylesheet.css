@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* ul li{
-    list-style: none;
-} */
 a{
     text-decoration: none;
 }
@@ -112,7 +109,7 @@ body{
     width: 26.66%;
 }
 .project_img{
-    width: 280px;
+    width: 200px;
     margin: 0 auto;
 }
 .project_img img{
