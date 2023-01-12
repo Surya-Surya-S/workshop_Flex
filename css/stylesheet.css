@@ -99,32 +99,29 @@ body{
     margin: 0 0 20px 0;
 }
 .project_content{
-    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0 auto;
 }
 .project1{
     width: 26.66%;
+    overflow: hidden;
 }
 .project_img{
-    width: 200px;
+    width: 400px;
     margin: 0 auto;
 }
 .project_img img{
     width: 100%;
 }
 .lef_top .project_img, .lef_top h2, .lef_top p {
-    margin-left: -106px;
     margin-bottom: 0;
 }
 .middle .project_img, .middle h2, .middle p {
-    margin-left: -8px;
     margin-bottom: 0;
 }
 .right .project_img, .right h2, .right p{
-    margin-left: 86px;
+    /* margin-left: 86px; */
 }
 .project1 h2{
     font-size: 22px;
