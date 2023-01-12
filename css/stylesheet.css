@@ -105,10 +105,10 @@ body{
 }
 .project1{
     width: 26.66%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .project_img{
-    width: 400px;
+    width: 324px;
     margin: 0 auto;
 }
 .project_img img{
