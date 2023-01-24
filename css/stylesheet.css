@@ -96,7 +96,7 @@ body{
     font-weight: 500;
     text-transform: capitalize;
     text-align: center;
-    margin: 0 0 60px 0;
+    padding: 0 0 60px 0;
 }
 .project_details{
     display: flex;
@@ -215,19 +215,18 @@ body{
 /* about_end */
 
 /* footer_start */
-footer {
-    padding: 20px 0 10px 0;
-}
 .footer_inner {
     width: 80%;
-    text-align: center;
-    margin: 0 auto;
+    margin: 16px auto;
 }
 .footer_inner p {
     font-size: 14px;
     font-weight: 500;
     text-transform: capitalize;
+    text-align: center;
     color: #343a40;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 /* footer_end */
 
