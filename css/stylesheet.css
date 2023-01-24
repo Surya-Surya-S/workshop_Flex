@@ -98,40 +98,48 @@ body{
     text-align: center;
     margin: 0 0 20px 0;
 }
-.project_content{
+.project_details{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
-.project1{
-    width: 26.66%;
-    /* overflow: hidden; */
+.project_content{
+    width: 33.3333333%;
+    text-align: left;
+    margin: 0 auto 60px;
 }
-.project_img{
-    width: 324px;
-    margin: 0 auto;
+.content_inner {
+    overflow: hidden;
 }
-.project_img img{
+.content_img {
+    width: 242px;
+    height: 161px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.content_img img{
     width: 100%;
 }
-.lef_top .project_img, .lef_top h2, .lef_top p {
-    margin-bottom: 0;
-}
-.middle .project_img, .middle h2, .middle p {
-    margin-bottom: 0;
-}
-.project1 h2{
+.content_inner h4{
     font-size: 22px;
-    text-align: left;
-    padding: 14px 0 8px 0;
-}
-.project1 p{
-    font-size: 14px;
-    text-align: left;
+    font-weight: normal;
     text-transform: capitalize;
+    color: #343a40;
+    padding-bottom: 8px;
 }
-.right h2{
-    margin-bottom: 0;
+.content_inner p{
+    font-size: 14px;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    color: #343a40;
+}
+.content_inner.right {
+    margin-left: 19px;
+}
+.content_inner.middle .content_img {
+    margin: 0 auto 14px;
+}
+.content_inner.middle h4, .content_inner.middle p{
+    padding: 0 0 8px 10px;
 }
 /* project/experience_end */
 
@@ -146,12 +154,12 @@ body{
     overflow: hidden;
     margin: 0 auto;
 }
-.about_inner h2{
+.about_inner h2, .about_para h2{
     font-size: 22px;
     font-family: Geneva, Tahoma, sans-serif;
     font-weight: 500;
     text-transform: capitalize;
-    margin: 0 0 30px 0;
+    margin: 0 0 60px 0;
 }
 .about_content{
     display: flex;
@@ -164,17 +172,21 @@ body{
     padding: 18px 0;
     margin: 0 0 10px 0;
 }
+.about_para h2{
+    margin: 0 0 30px 0;
+}
 .about_para li{
     text-align: left;
     list-style: none;
     margin: 0 0 6px 60px;
+    position: relative;
 }
 .about_para ul li::before {
-    content: "\2596";
+    content: "\2578";
     color: #333940;
-    display: inline-block;
-    width: 5%;
-    margin-left: -18px;
+    left: -14px;
+    top: -1px;
+    position: absolute;
 }
 .about_para li a{
     font-size: 14px;
@@ -191,11 +203,11 @@ body{
     color: #f8f9fa;
 }
 .about_para.active ul li::before{
-    content: "\2596";
+    content: "\2578";
     color: #f5f5f6;
-    display: inline-block;
-    width: 5%;
-    margin-left: -18px;
+    left: -14px;
+    top: -1px;
+    position: absolute;
 }
 .about_para.active{
     background-color: #343a40;
@@ -204,7 +216,7 @@ body{
 
 /* footer_start */
 footer{
-    padding: 0;
+    padding: 20px 0;
 }
 .footer_inner h2{
     width: 80%;
