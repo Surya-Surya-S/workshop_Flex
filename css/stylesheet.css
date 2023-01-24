@@ -217,6 +217,7 @@ body{
 /* footer_start */
 .footer_inner {
     width: 80%;
+    height: 0;
     margin: 16px auto;
 }
 .footer_inner p {
