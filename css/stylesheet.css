@@ -107,8 +107,19 @@ body{
     text-align: left;
     margin: 0 auto 60px;
 }
-.content_inner {
-    overflow: hidden;
+.content_inner{
+    width: 67%;
+    margin: 0 auto;
+}
+.content_inner:nth-child(1), .content_inner:nth-child(4){
+    margin-left: 0;
+}
+.content_inner.middle{
+    margin: 0 auto;
+}
+.content_inner.right {
+    margin-left: auto;
+    margin-right: 0;
 }
 .content_img {
     width: 242px;
@@ -131,9 +142,6 @@ body{
     font-family: Geneva, Tahoma, sans-serif;
     font-weight: 200;
     color: #343a40;
-}
-.content_inner.right {
-    margin-left: 19px;
 }
 .content_inner.middle .content_img {
     margin: 0 auto 14px;

@@ -15,8 +15,20 @@
 .project_details {
     flex-direction: column;
 }
+.content_inner.middle, .content_inner.right {
+    margin: 0 0 0 0;
+}
 .project_content{
     width: auto;
+}
+.content_inner.middle h4, .content_inner.middle p {
+    padding: 0 0 10px 0;
+}
+.content_inner h4 {
+    font-size: 20px;
+}
+.content_inner p{
+    font-size: 10px;
 }
 .about_content{
     flex-direction: column;
