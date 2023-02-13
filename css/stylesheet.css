@@ -104,11 +104,12 @@ body{
 }
 .project_content{
     width: 33.3333333%;
-    text-align: left;
+    text-align: center;
     margin: 0 auto 60px;
 }
 .content_inner{
-    width: 67%;
+    width: 90%;
+    text-align: left;
     margin: 0 auto;
 }
 .content_inner:nth-child(1), .content_inner:nth-child(4){
@@ -117,14 +118,11 @@ body{
 .content_inner.middle{
     margin: 0 auto;
 }
-.content_inner.right {
-    margin-left: auto;
+.content_inner.right{
     margin-right: 0;
+    margin-left: auto;
 }
 .content_img {
-    width: 242px;
-    height: 161px;
-    overflow: hidden;
     margin-bottom: 10px;
 }
 .content_img img{
@@ -143,12 +141,12 @@ body{
     font-weight: 200;
     color: #343a40;
 }
-.content_inner.middle .content_img {
+/* .content_inner.middle .content_img {
     margin: 0 auto 14px;
 }
 .content_inner.middle h4, .content_inner.middle p{
     padding: 0 0 8px 10px;
-}
+} */
 /* project/experience_end */
 
 /* about_start */
